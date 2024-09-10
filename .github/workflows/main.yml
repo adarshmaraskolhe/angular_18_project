@@ -29,7 +29,7 @@ steps:
 
     - name: Deploy to gh pages
       run: |
-        npx angular-cli-ghpages --dir=dist/your-angular-app
+        npx angular-cli-ghpages --dir=dist/angular_18_project
       env:
         CI: true
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
